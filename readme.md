@@ -1,3 +1,6 @@
+
+<img src="https://res.cloudinary.com/durbs4yfq/image/upload/v1694684619/logo/square_h2aswm.png" width="200" height="200" style="">
+
 # Automated Letter Sending Script
 
 ## Introduction
@@ -10,10 +13,47 @@ This document provides instructions for setting up a script that automatically b
 - A text editor (e.g., Visual Studio Code, Sublime Text)
 - An email account for sending the letters
 - Microsoft word and Microsoft Excel (preferably 2019 or Office 365)
-- Pip 23.2 or higher
+- pip (Python package installer)
+- virtualenv (Python virtual environment)
+- Git
 
 ## Steps
+## Steps
 
+1. **Clone the Repository**: Clone the Python repository from GitHub using the following command in your terminal:
+
+```bash
+git clone https://github.com/Phionira/word_automation.git
+```
+2. **Navigate to the Project Directory**: Use the cd command to navigate to the project directory:
+```bash
+cd word_automation
+```
+3. **Create a Virtual Environment**: Set up a virtual environment using the virtualenv command:
+```bash
+python -m venv env
+```
+4. **Activate the Virtual Environment**: Activate the virtual environment using the following command:
+- On Windows:
+```bash
+.\env\Scripts\activate
+```
+- On Unix or MacOS:
+```bash
+source env/bin/activate
+```
+
+5. **Install the Dependencies**: Install the project dependencies from the requirements.txt file using the pip install command:
+```bash
+pip install -r requirements.txt
+```
+ 
+6. **Run the Script**: Finally, run the word_automation.py script using the python command:
+```bash
+python word_automation.py
+```
+
+** Note: ** This script requires Please reach out the IT Department for further information about modifying the template and excel documents. 
 1. **Create a Template Letter**: Write a template for the letter with placeholders for the personalized information.
 
 2. **Prepare the Data**: Create a CSV file with the names of the schools and the personalized information you want to include in the letters.
@@ -31,3 +71,5 @@ With this script, you can automate the process of sending personalized letters t
 ## Contact
 
 For more information or assistance, please contact the IT department.
+
+soporte@lms.phionira.com
